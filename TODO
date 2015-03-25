@@ -1,0 +1,9 @@
+ls4sweep todo:
+==============
+
+* Support not only days, but alse hours/minutes/seconds as measure units
+* Support --use-format <fmt> command line option
+* XML documentation
+* Native Win32 port
+
+<EOF>

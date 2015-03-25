@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="KOI8-R"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN"
+	"http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd"
+[
+<!ENTITY app "<application>ls4sweep</application>">
+] >
+
+<reference lang="en"><title>ls4sweep reference</title>
+
+<refentry id="ls4sweep">
+
+<!--
+.TH LS4SWEEP 1 "May 12, 2005"
+.\" Please adjust this date whenever revising the manpage.
+-->
+
+<refmeta>
+   <refentrytitle>ls4sweep</refentrytitle>
+   <manvolnum>1</manvolnum>
+</refmeta>
+
+<refnamediv>
+   <refdescriptor>ls4sweep</refdescriptor>
+   <refname>ls4sweep</refname>
+   <refpurpose>Make policy-based listing of old backups</refpurpose>
+</refnamediv>
+
+<refsynopsisdiv>
+   <cmdsynopsis>
+      <command>/usr/bin/ls4sweep</command>
+      <arg choice="opt">-h</arg>
+      <arg choice="opt">-V</arg>
+      <arg choice="opt">-0</arg>
+      <arg choice="opt">-q</arg>
+      <arg choice="opt">-m</arg>
+      <arg choice="opt">-c</arg>
+      <arg choice="opt">-a</arg>
+      <arg choice="opt">-d <replaceable>debug-level</replaceable></arg>
+      <arg choice="opt">--help</arg>
+      <arg choice="opt">--version</arg>
+      <arg choice="opt">--print0</arg>
+      <arg choice="opt">--printq</arg>
+      <arg choice="opt">--help</arg>
+      <arg choice="opt">--help</arg>
+      <arg choice="opt">--help</arg>
+      <arg choice="opt">--help</arg>
+      <arg choice="opt"><replaceable>file</replaceable></arg>
+   </cmdsynopsis>
+</refsynopsisdiv>
+
+<refsect1>
+   <title>DESCRIPTION</title>
+
+<para>&app; ???
+</para>
+
+</refsect1>  <!-- Description -->
+
+<refsect1>
+   <title>OPTIONS</title>
+
+<para>???
+</para>
+
+<variablelist>
+
+<varlistentry><term><arg choice="plain">-version</arg></term>
+<listitem><para>Display program version and exit.</para></listitem>
+</varlistentry>
+
+</variablelist>
+
+</refsect1>  <!-- Options -->
+
+<refsect1>
+  <title>EXAMPLES</title>
+
+<para>???
+</para>
+
+</refsect1>  <!-- examples -->
+
+<refsect1>
+  <title>BUGS</title>
+
+<para>???
+</para>
+
+</refsect1>  <!-- bugs -->
+
+<refsect1>
+  <title>SEE ALSO</title>
+
+<para><ulink url="http://ilya-evseev.narod.ru/posix/microbackup/"
+>MicroBackup</ulink> was initial project written on Perl.
+&app; reproduces a part of MicroBackup core on low level
+that allows to implement MicroBackup-like functionality
+on non-Posix platforms like Windows using its own native tools.
+</para>
+
+</refsect1>  <!-- see also -->
+
+<refsect1>
+  <title>АUTHORS</title>
+
+<para>Written 2005 by evseev@altlinux.org under terms
+of <ulink url="http://www.gnu.org/licenses/gpl.html">GNU GPL</ulink>.
+</para>
+
+</refsect1>  <!-- authors -->
+
+</refentry>
+
+</reference>
